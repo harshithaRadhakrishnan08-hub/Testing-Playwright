@@ -1,0 +1,16 @@
+{
+    "TestData1": {
+        "email": "Shanvika@gmail.com",
+        "password": "kalpana",
+        "company": "CTS",
+        "Mobile": "9443936339",
+        "Country": "United States"
+    },
+    "TestData2": {
+        "email": "Sahaarikhaa@gmail.com",
+        "password": "jagan",
+        "company": "CTS",
+        "Mobile": "9597320222",
+        "Country": "United States"
+    }
+}

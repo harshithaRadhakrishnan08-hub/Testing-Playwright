@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../../DevTools/Ex_Files_Chrome_Web_Dev_Tools/Ex_Files_Chrome_Web_Dev_Tools/Exercise Files/Ch04/04_01/begin"
+		},
+		{
+			"path": "../../../../DevTools/Ex_Files_Chrome_Web_Dev_Tools/Ex_Files_Chrome_Web_Dev_Tools/Exercise Files/Ch04"
+		},
+		{
+			"path": "../../../../DevTools/Ex_Files_Chrome_Web_Dev_Tools/Ex_Files_Chrome_Web_Dev_Tools/Exercise Files/Ch05"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "begin"
+	}
+}

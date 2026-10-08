@@ -1,0 +1,30 @@
+{
+    "Users1": {
+        "username": "standard_user",
+        "password": "secret_sauce"
+    },
+    "Users2":{
+        "username": "locked_out_user",
+        "password": "secret_sauce"
+    },
+    "Users3":{
+        "username": "problem_user",
+        "password": "secret_sauce"
+    },
+    "Users4":{
+        "username": "performance_glitch_user",
+        "password": "secret_sauce"
+    },
+    "Users5":{
+        "username": "visual_user",
+        "password": "secret_sauce"
+    },    
+    "Users6":{
+        "username": "error_user",
+        "password": "secret_sauce"
+    },
+    "Users7":{
+        "username": "harshitha",
+        "password": "secret_sauce"
+    }
+}

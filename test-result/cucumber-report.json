@@ -1,0 +1,120 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "browser-stack-testing;cross-tab-session-synchronization-verification",
+        "keyword": "Scenario Outline",
+        "line": 28,
+        "name": "Cross-Tab Session Synchronization Verification",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 586765300
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "Open the Browser for testing",
+            "match": {
+              "location": "PlaywrightAutomationCode\\StepDefinition\\browserstack.ts:9"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 3550829299
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "Open the Browser Stack webpage",
+            "match": {
+              "location": "PlaywrightAutomationCode\\StepDefinition\\browserstack.ts:22"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4548842899
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "create another page2 and open the homepage \"https://bstackdemo.com/\"",
+            "match": {
+              "location": "PlaywrightAutomationCode\\StepDefinition\\browserstack.ts:158"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 12463198500
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "Login as \"demouser\"",
+            "match": {
+              "location": "PlaywrightAutomationCode\\StepDefinition\\browserstack.ts:99"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 12873803800
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "Add an item \"iPhone 12\" to cart",
+            "match": {
+              "location": "PlaywrightAutomationCode\\StepDefinition\\browserstack.ts:123"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4395549200
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "Switch to page2 and verify wehther the item is added to the cart",
+            "match": {
+              "location": "PlaywrightAutomationCode\\StepDefinition\\browserstack.ts:166"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 551022799
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "Close the testing browser",
+            "match": {
+              "location": "PlaywrightAutomationCode\\StepDefinition\\browserstack.ts:176"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@BrowserStack4",
+            "line": 27
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "browser-stack-testing",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Browser Stack Testing",
+    "tags": [],
+    "uri": "PlaywrightAutomationCode\\FeatureFiles\\browserStack.feature"
+  }
+]
