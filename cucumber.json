@@ -1,6 +1,6 @@
 {
     "default": {
-        "tags": "@BrowserStack4",
+        "tags": "@BrowserStack",
         "dryRun": false,
         "formatOptions": {
             "snippetInterface": "async-await",
