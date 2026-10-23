@@ -3,18 +3,18 @@ Background:
     Given Open the Browser for testing
     When Open the Browser Stack webpage
 
-@browserstack
+@browserstack1
 Scenario Outline:  Product Grid Filtering & UI Sorting 
         Then Get the product list 
         And Close the testing browser
 
-@browserstack
+@browserstack2
 Scenario Outline: Form Handling, Login Security Roles & Error State Validation
         Then Check the invalid configuration 
         Then Refresh and enter the valid login details 
          And Close the testing browser
 
-@browserstack
+@BrowserStack3
 Scenario Outline: : Real-Time Drawer Modal & Client Checkout Pipelines 
         Then Login as "demouser" 
         Then Add an item "iPhone 12" to cart
@@ -24,7 +24,7 @@ Scenario Outline: : Real-Time Drawer Modal & Client Checkout Pipelines
        | First Name | Last Name | Address | State | Postal Code |
        | Harshitha  | Krishnan | 10016 65th st  | WI | 53142 | 
 
-@browserstack
+@BrowserStack4
 Scenario Outline: Cross-Tab Session Synchronization Verification 
        Then create another page2 and open the homepage "https://bstackdemo.com/"
        Then Login as "demouser"

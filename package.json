@@ -22,7 +22,6 @@
     "allure-commandline": "^2.46.1",
     "allure-cucumberjs": "^3.13.0",
     "allure-js-commons": "^3.13.0",
-    "allure-playwright": "^3.13.0",
     "cucumber-html-reporter": "^5.0.2",
     "dotenv": "^17.4.2",
     "playwright": "^1.63.0",
@@ -30,6 +29,7 @@
     "typescript": "^5.9.3"
   },
   "dependencies": {
+    "mysql2": "^3.24.6",
     "node": "^26.9.0"
   }
 }
