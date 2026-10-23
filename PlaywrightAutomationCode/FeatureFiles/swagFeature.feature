@@ -1,13 +1,16 @@
 Feature: Swag 
 
+@POM
 Scenario:   Open swag and Enter login details 
-    Given Open the browser
-    When Launch the Swag broswer
-    Then Enter Username and password
-    Then Verify Username and password for all users
-    And Close the browser
+    Given Launch the Swag broswer POM
+    Then Enter Username and password POM
+   # Then Verify Username and password for all users
 
-#Feature: SwagLabs Shopping Flow
+@swaghook
+Scenario:   Open swag and Enter login details 
+    Given Launch the Swag broswer for testing
+    Then Enter Username and password
+   # Then Verify Username and password for all users
 
 @swagtabs
 Scenario: Cross-Tab Session Synchronization Verification 
